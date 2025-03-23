@@ -18,9 +18,10 @@ public class EmployeeJsonIgnoreProperties {
 
     private String street;
 
-    @JsonIgnoreProperties({"underlings"})
+    @JsonIgnoreProperties({"underlings", "manager"})
     private EmployeeJsonIgnoreProperties manager;
 
+    @JsonIgnoreProperties({"underlings", "manager"})
     private List<EmployeeJsonIgnoreProperties> underlings = List.of();
 
 }
