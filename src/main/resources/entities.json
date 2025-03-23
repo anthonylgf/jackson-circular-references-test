@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "name": "Noel J. Young",
+    "street": "Estate Avenue"
+  },
+  {
+    "id": 2,
+    "name": "Linda R. White",
+    "street": "Polygon Passage",
+    "manager_id": 1
+  },
+  {
+    "id": 3,
+    "name": "Kenneth Y. McClure",
+    "street": "Bell Route",
+    "manager_id": 2
+  }
+]
